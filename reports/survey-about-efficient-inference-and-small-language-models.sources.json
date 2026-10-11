@@ -1,0 +1,194 @@
+[
+  {
+    "n": 1,
+    "id": "",
+    "url": "https://aclanthology.org/2025.ranlp-1.93/",
+    "title": "A Survey on Small Language Models",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "2510.13890",
+    "url": "https://arxiv.org/abs/2510.13890",
+    "title": "A Survey on Collaborating Small and Large Language Models",
+    "date": "2025-10-14",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2507.04610",
+    "url": "https://arxiv.org/abs/2507.04610",
+    "title": "any4: Learned 4-bit Numeric Representation for LLMs",
+    "date": "2025-07-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2604.18556",
+    "url": "https://huggingface.co/papers/2604.18556",
+    "title": "GSQ: Highly-Accurate Low-Precision Scalar Quantization for LLMs via Gumbel-Softmax Sampling",
+    "date": "2026-04-20",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "",
+    "url": "https://www.arxiv.org/pdf/2604.09562",
+    "title": "StreamServe: Disaggregated Prefill-Decode Serving Architecture",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2609.37029",
+    "url": "https://huggingface.co/papers/2609.37029",
+    "title": "LongSpark: Efficient speculative decoding with a fixed-cost parallel drafter",
+    "date": "2026-09-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2510.18672",
+    "url": "https://huggingface.co/papers/2510.18672",
+    "title": "Reasoning Language Model Inference Serving Unveiled",
+    "date": "2025-10-21",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2609.19513",
+    "url": "https://arxiv.org/abs/2609.19513",
+    "title": "QVAC Genesis III: A Large-Scale, High-Quality Open Synthetic STEM Corpus for Efficient Language Model Pre-Training",
+    "date": "2026-09-17",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2608.29966",
+    "url": "https://arxiv.org/abs/2608.29966",
+    "title": "DataFoundry: Evolving Data Preparators via Recursive Self-Improvement",
+    "date": "2026-08-30",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "",
+    "url": "https://arxiv.org/html/2402.09748v1",
+    "title": "Model Compression and Efficient Inference for Large Language Models",
+    "date": "2024-02-15",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "",
+    "url": "https://link.springer.com/article/10.1007/s40747-025-02019-z",
+    "title": "A review of state-of-the-art techniques for large language models",
+    "date": "2025-08-01",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2606.19957",
+    "url": "https://arxiv.org/abs/2606.19957",
+    "title": "Modest, artistic, and radical solutions to the environmental impact of image-generating machine learning",
+    "date": "2026-06-18",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "",
+    "url": "https://shipxu123.github.io/papers/C15-DAC2025-LLMShare.pdf",
+    "title": "LLMShare: Optimizing LLM Inference Serving with Hardware-Architecture Exploration",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "id": "",
+    "url": "https://www.arxiv.org/pdf/2603.16177",
+    "title": "Specializing Smaller Language Models: The Finetuner's Fallacy",
+    "date": "2026-03-01",
+    "source": "web"
+  },
+  {
+    "n": 15,
+    "id": "2505.20276",
+    "url": "https://arxiv.org/abs/2505.20276",
+    "title": "Does quantization affect models' performance on long-context tasks?",
+    "date": "2025-05-26",
+    "source": "arxiv"
+  },
+  {
+    "n": 16,
+    "id": "2603.17891",
+    "url": "https://huggingface.co/papers/2603.17891",
+    "title": "RAMP: Reinforcement Adaptive Mixed Precision Quantization for Efficient On Device LLM Inference",
+    "date": "2026-03-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 17,
+    "id": "2601.15287",
+    "url": "https://huggingface.co/papers/2601.15287",
+    "title": "Towards Understanding Best Practices for Quantization of Vision-Language Models",
+    "date": "2026-01-21",
+    "source": "hf-search"
+  },
+  {
+    "n": 18,
+    "id": "2610.01172",
+    "url": "https://arxiv.org/abs/2610.01172",
+    "title": "Learning Rate Transfer for Hybrid Transformer-SSM Architectures",
+    "date": "2026-10-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 19,
+    "id": "2609.32102",
+    "url": "https://arxiv.org/abs/2609.32102",
+    "title": "Residual Streams Read, Recurrent States Remember: The Global Workspace in Mamba Models",
+    "date": "2026-09-26",
+    "source": "arxiv"
+  },
+  {
+    "n": 20,
+    "id": "2609.32486",
+    "url": "https://arxiv.org/abs/2609.32486",
+    "title": "Elastic Selective Spectral Hybrids for Train-Once, Export-Many Budgeted Inference",
+    "date": "2026-09-26",
+    "source": "arxiv"
+  },
+  {
+    "n": 21,
+    "id": "2610.02853",
+    "url": "https://arxiv.org/abs/2610.02853",
+    "title": "Bounded Reachability & Jailbreak Detection via Contraction-Constrained State Space Models",
+    "date": "2026-10-02",
+    "source": "arxiv"
+  },
+  {
+    "n": 22,
+    "id": "2604.14626",
+    "url": "https://huggingface.co/papers/2604.14626",
+    "title": "ELMoE-3D: Leveraging Intrinsic Elasticity of MoE for Hybrid-Bonding-Enabled Self-Speculative Decoding",
+    "date": "2026-04-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 23,
+    "id": "2610.11727",
+    "url": "https://arxiv.org/abs/2610.11727",
+    "title": "MAP4CS: A Multi-dimensional Data Pruning Framework for Efficient Code Retriever Fine-tuning",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 24,
+    "id": "2609.22285",
+    "url": "https://arxiv.org/abs/2609.22285",
+    "title": "ORDER: A Fictitious-World Benchmark for Domain-Adaptive Embodied AI",
+    "date": "2026-09-13",
+    "source": "arxiv"
+  }
+]

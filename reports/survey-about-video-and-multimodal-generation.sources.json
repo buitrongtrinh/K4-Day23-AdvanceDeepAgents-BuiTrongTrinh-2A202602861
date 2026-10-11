@@ -1,0 +1,202 @@
+[
+  {
+    "n": 1,
+    "id": "",
+    "url": "https://arxiv.org/html/2604.06339v1",
+    "title": "Evolution of Video Generative Foundations",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "2610.11756",
+    "url": "https://arxiv.org/abs/2610.11756",
+    "title": "Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2606.06042",
+    "url": "https://arxiv.org/abs/2606.06042",
+    "title": "LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing",
+    "date": "2026-06-04",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "",
+    "url": "https://arxiv.org/html/2608.14043",
+    "title": "Beyond Text Conditioning: A Systematic Study of MLLM-DiT Fusion for Video Generation",
+    "date": "2026-08-14",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2503.21755",
+    "url": "https://huggingface.co/papers/2503.21755",
+    "title": "VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness",
+    "date": "2025-03-27",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2504.04907",
+    "url": "https://huggingface.co/papers/2504.04907",
+    "title": "Video-Bench: Human-Aligned Video Generation Benchmark",
+    "date": "2025-04-07",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2610.00812",
+    "url": "https://arxiv.org/abs/2610.00812",
+    "title": "Video Generation Models: A Survey of Post-Training and Alignment",
+    "date": "2026-09-30",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "2604.15911",
+    "url": "https://arxiv.org/abs/2604.15911",
+    "title": "Efficient Video Diffusion Models: Advancements and Challenges",
+    "date": "2026-04-17",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2501.09038",
+    "url": "https://huggingface.co/papers/2501.09038",
+    "title": "Do generative video models learn physical principles from watching videos?",
+    "date": "2025-01-14",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "",
+    "url": "https://link.springer.com/article/10.1007/s11704-025-51171-9",
+    "title": "Next-Gen AIGC: a review of multimodal foundation models for text-to-media innovations",
+    "date": "2026-02-20",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2608.26214",
+    "url": "https://arxiv.org/abs/2608.26214",
+    "title": "Surgical Video Generation From Diffusion to World Models: A Survey",
+    "date": "2026-08-26",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "",
+    "url": "https://link.springer.com/article/10.1007/s10462-026-11699-z",
+    "title": "Towards human-centered and efficient video synthesis: a survey of multimodal diffusion models",
+    "date": "2026-09-13",
+    "source": "web"
+  },
+  {
+    "n": 13,
+    "id": "2311.15127",
+    "url": "https://huggingface.co/papers/2311.15127",
+    "title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
+    "date": "2023-11-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 14,
+    "id": "2610.09146",
+    "url": "https://huggingface.co/papers/2610.09146",
+    "title": "Frozen Models, Evolving Expertise: Model-Agnostic Learning from Deployment Experience for Multimodal Medical AI",
+    "date": "2026-10-06",
+    "source": "hf-daily"
+  },
+  {
+    "n": 15,
+    "id": "",
+    "url": "https://link.springer.com/article/10.1007/s10462-026-11525-6",
+    "title": "Generative AI for multimodal content: a survey with empirical and experimental evaluations",
+    "date": "2026-03-19",
+    "source": "web"
+  },
+  {
+    "n": 16,
+    "id": "2412.20404",
+    "url": "https://huggingface.co/papers/2412.20404",
+    "title": "Open-Sora: Democratizing Efficient Video Production for All",
+    "date": "2024-12-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 17,
+    "id": "2406.14130",
+    "url": "https://huggingface.co/papers/2406.14130",
+    "title": "ExVideo: Extending Video Diffusion Models via Parameter-Efficient Post-Tuning",
+    "date": "2024-06-20",
+    "source": "hf-search"
+  },
+  {
+    "n": 18,
+    "id": "2411.10510",
+    "url": "https://huggingface.co/papers/2411.10510",
+    "title": "SmoothCache: A Universal Inference Acceleration Technique for Diffusion Transformers",
+    "date": "2024-11-15",
+    "source": "hf-search"
+  },
+  {
+    "n": 19,
+    "id": "2610.11479",
+    "url": "https://arxiv.org/abs/2610.11479",
+    "title": "Conditional Residual Prediction: Improving Autoregressive Video Diffusion without a Bidirectional Teacher",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 20,
+    "id": "2605.04045",
+    "url": "https://arxiv.org/abs/2605.04045",
+    "title": "Audio-Visual Intelligence in Large Foundation Models",
+    "date": "2026-05-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 21,
+    "id": "",
+    "url": "https://arxiv.science/abs/2507.16869",
+    "title": "Controllable Video Generation: A Survey",
+    "date": "2026-01-19",
+    "source": "web"
+  },
+  {
+    "n": 22,
+    "id": "2503.23452",
+    "url": "https://huggingface.co/papers/2503.23452",
+    "title": "VideoGen-Eval: Agent-based System for Video Generation Evaluation",
+    "date": "2025-04-27",
+    "source": "hf-search"
+  },
+  {
+    "n": 23,
+    "id": "2406.18522",
+    "url": "https://huggingface.co/papers/2406.18522",
+    "title": "ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation",
+    "date": "2024-06-26",
+    "source": "hf-search"
+  },
+  {
+    "n": 24,
+    "id": "2509.24427",
+    "url": "https://huggingface.co/papers/2509.24427",
+    "title": "UI2V-Bench: An Understanding-based Image-to-video Generation Benchmark",
+    "date": "2025-09-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 25,
+    "id": "2610.08585",
+    "url": "https://huggingface.co/papers/2610.08585",
+    "title": "Incidental information contaminates patient notes and disrupts clinical reasoning in large language models",
+    "date": "2026-10-06",
+    "source": "hf-daily"
+  }
+]

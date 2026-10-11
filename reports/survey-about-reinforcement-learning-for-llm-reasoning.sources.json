@@ -1,0 +1,154 @@
+[
+  {
+    "id": "",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/b1ea3f93167c55f3fc2999b68a170ff3-Paper-Conference.pdf",
+    "title": "Reinforcement Learning for Reasoning in Large Language Models with One Training Example",
+    "date": "n.d.",
+    "source": "web",
+    "n": 1
+  },
+  {
+    "id": "2609.36802",
+    "url": "https://arxiv.org/abs/2609.36802",
+    "title": "EasyPPO: Stabilizing the Critic Is Key",
+    "date": "2026-09-29",
+    "source": "arxiv",
+    "n": 2
+  },
+  {
+    "id": "2609.36816",
+    "url": "https://arxiv.org/abs/2609.36816",
+    "title": "Towards Better Training Signal: Advantage Clipped Policy Optimization",
+    "date": "2026-09-29",
+    "source": "arxiv",
+    "n": 3
+  },
+  {
+    "id": "2203.11171",
+    "url": "https://huggingface.co/papers/2203.11171",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "date": "2022-03-21",
+    "source": "hf-search",
+    "n": 4
+  },
+  {
+    "id": "2503.20757",
+    "url": "https://huggingface.co/papers/2503.20757",
+    "title": "MCTS-RAG: Enhancing Retrieval-Augmented Generation with Monte Carlo Tree Search",
+    "date": "2025-03-26",
+    "source": "hf-search",
+    "n": 5
+  },
+  {
+    "id": "2608.17776",
+    "url": "https://arxiv.org/abs/2608.17776",
+    "title": "Debate Training Reduces Reward Hacking in RLAIF",
+    "date": "2026-08-18",
+    "source": "arxiv",
+    "n": 6
+  },
+  {
+    "id": "2610.02835",
+    "url": "https://arxiv.org/abs/2610.02835",
+    "title": "All Work And No Play Makes Jack a Dull Boy: Understanding and Preventing Catastrophic Strategy Collapse in RLVR",
+    "date": "2026-10-02",
+    "source": "arxiv",
+    "n": 7
+  },
+  {
+    "id": "2609.07183",
+    "url": "https://arxiv.org/abs/2609.07183",
+    "title": "CircuitLens: Reasoning Circuits as Data Selection Signals for Reinforcement Learning with Verifiable Rewards",
+    "date": "2026-09-07",
+    "source": "arxiv",
+    "n": 8
+  },
+  {
+    "id": "2609.04648",
+    "url": "https://arxiv.org/abs/2609.04648",
+    "title": "ConsensusBench: Benchmark of Consensus Nodes for LLM Reasoning via Outcome Reward Densifying",
+    "date": "2026-09-04",
+    "source": "arxiv",
+    "n": 9
+  },
+  {
+    "id": "2609.06386",
+    "url": "https://arxiv.org/abs/2609.06386",
+    "title": "Are Verifier Errors Independent Within a GRPO Group? Evidence from Qwen2.5 Rollouts",
+    "date": "2026-09-06",
+    "source": "arxiv",
+    "n": 10
+  },
+  {
+    "id": "2203.02155",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "date": "2022-03-04",
+    "source": "web",
+    "n": 11
+  },
+  {
+    "id": "2610.09219",
+    "url": "https://arxiv.org/abs/2610.09219",
+    "title": "CM-DPO: Constraint-Margin Direct Preference Optimization for LLM Planning",
+    "date": "2026-10-06",
+    "source": "arxiv",
+    "n": 12
+  },
+  {
+    "id": "2610.11502",
+    "url": "https://arxiv.org/abs/2610.11502",
+    "title": "Fed-GRPO: Reward-Signal-Driven Federated Group Relative Policy Optimization",
+    "date": "2026-10-08",
+    "source": "arxiv",
+    "n": 13
+  },
+  {
+    "id": "2608.30395",
+    "url": "https://arxiv.org/abs/2608.30395",
+    "title": "When LLM Meets Tree Search: A Systematic View of Inference as Search in Large Language Models",
+    "date": "2026-08-31",
+    "source": "arxiv",
+    "n": 14
+  },
+  {
+    "id": "2610.11373",
+    "url": "https://arxiv.org/abs/2610.11373",
+    "title": "From a Prompt to Repertoires: Evolving Functional REpertoires Enable LLM Continual Learning",
+    "date": "2026-10-08",
+    "source": "arxiv",
+    "n": 15
+  },
+  {
+    "id": "2610.11152",
+    "url": "https://arxiv.org/abs/2610.11152",
+    "title": "Do LLMs Learn from Rewards in Context? : Rethinking the role of reward in In-Context Reinforcement Learning",
+    "date": "2026-10-08",
+    "source": "arxiv",
+    "n": 16
+  },
+  {
+    "id": "2606.20068",
+    "url": "https://arxiv.org/abs/2606.20068",
+    "title": "Process-Verified Reinforcement Learning for Theorem Proving via Lean",
+    "date": "2026-06-18",
+    "source": "arxiv",
+    "n": 17
+  },
+  {
+    "id": "2610.11854",
+    "url": "https://arxiv.org/abs/2610.11854",
+    "title": "GRPODropout: Less is More for Online Reinforcement Learning Rollouts",
+    "date": "2026-10-08",
+    "source": "arxiv",
+    "n": 18
+  },
+  {
+    "id": "2610.12343",
+    "url": "https://huggingface.co/papers/2610.12343",
+    "title": "Reasoning-Informed Visual Editing",
+    "date": "2026-10-08",
+    "source": "hf-daily",
+    "n": 19
+  }
+]

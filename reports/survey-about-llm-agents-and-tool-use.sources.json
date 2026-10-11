@@ -1,0 +1,202 @@
+[
+  {
+    "n": 1,
+    "id": "2210.03629",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "date": "2023-03-10",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "",
+    "url": "https://arxiv.org/html/2406.05804",
+    "title": "A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning",
+    "date": "2024-06-11",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "",
+    "url": "https://arxiv.org/pdf/2608.06663",
+    "title": "The Horizon Gap: Planning, Memory, Execution, Training, and Evaluation for Long-Horizon LLM Agents",
+    "date": "2026-08-01",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "",
+    "url": "https://dl.acm.org/doi/10.1145/3711896.3736570",
+    "title": "Evaluation and Benchmarking of LLM Agents: A Survey",
+    "date": "2025-08-03",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "",
+    "url": "https://doi.org/10.1007/978-3-032-37682-4_29",
+    "title": "The Illusion of Success: Procedure-Aware Evaluation is Critical for LLM Agents",
+    "date": "2026-10-06",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "",
+    "url": "https://proceedings.mlr.press/v306/jiang26as.html",
+    "title": "AgentLAB: Benchmarking LLM Agents against Long-Horizon Attacks",
+    "date": "2026-06-11",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "",
+    "url": "https://arxiv.org/html/2607.19913",
+    "title": "JANUS: Foreseeing Latent Risk for Long-Horizon Agent Safety",
+    "date": "2026-07-22",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "",
+    "url": "https://link.springer.com/article/10.1007/s11704-024-40231-1",
+    "title": "A survey on large language model based autonomous agents",
+    "date": "2024-03-22",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2205.00445",
+    "url": "https://arxiv.org/abs/2205.00445",
+    "title": "MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning",
+    "date": "2022-05-01",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "2302.04761",
+    "url": "https://ar5iv.labs.arxiv.org/html/2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "date": "2023-02-09",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2603.12740",
+    "url": "https://huggingface.co/papers/2603.12740",
+    "title": "ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning",
+    "date": "2026-03-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 12,
+    "id": "2508.00344",
+    "url": "https://huggingface.co/papers/2508.00344",
+    "title": "PilotRL: Training Language Model Agents via Global Planning-Guided Progressive Reinforcement Learning",
+    "date": "2025-08-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 13,
+    "id": "2610.09219",
+    "url": "https://arxiv.org/abs/2610.09219",
+    "title": "CM-DPO: Constraint-Margin Direct Preference Optimization for LLM Planning",
+    "date": "2026-10-06",
+    "source": "arxiv"
+  },
+  {
+    "n": 14,
+    "id": "2402.15538",
+    "url": "https://huggingface.co/papers/2402.15538",
+    "title": "AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System",
+    "date": "2024-02-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "2501.07054",
+    "url": "https://huggingface.co/papers/2501.07054",
+    "title": "PoAct: Policy and Action Dual-Control Agent for Generalized Applications",
+    "date": "2025-01-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 16,
+    "id": "2605.27898",
+    "url": "https://arxiv.org/html/2605.27898",
+    "title": "A Unified Framework for the Evaluation of LLM Agentic Capabilities",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 17,
+    "id": "",
+    "url": "https://doi.org/10.1109/PIMRC69400.2026.11711756",
+    "title": "TelcoAgent-Bench: A Multilingual Benchmark for Telecom AI Agents",
+    "date": "2026-09-01",
+    "source": "web"
+  },
+  {
+    "n": 18,
+    "id": "2407.00993",
+    "url": "https://arxiv.org/abs/2407.00993",
+    "title": "Mobile-bench: An evaluation benchmark for llm-based mobile agents",
+    "date": "2024-07-01",
+    "source": "web"
+  },
+  {
+    "n": 19,
+    "id": "2401.13158",
+    "url": "https://arxiv.org/abs/2401.13158",
+    "title": "AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents",
+    "date": "2024-01-24",
+    "source": "web"
+  },
+  {
+    "n": 20,
+    "id": "2412.13178",
+    "url": "https://arxiv.org/abs/2412.13178",
+    "title": "SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents",
+    "date": "2024-12-19",
+    "source": "web"
+  },
+  {
+    "n": 21,
+    "id": "2410.10934",
+    "url": "https://arxiv.org/abs/2410.10934",
+    "title": "Agent-as-a-judge: Evaluate agents with agents",
+    "date": "2024-10-15",
+    "source": "web"
+  },
+  {
+    "n": 22,
+    "id": "",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3837083",
+    "title": "A Comparative Survey of Security Risks in AI Systems: From LLMs to AI Agents and Embodied Agents",
+    "date": "2026-08-22",
+    "source": "web"
+  },
+  {
+    "n": 23,
+    "id": "2606.10749",
+    "url": "https://arxiv.org/abs/2606.10749",
+    "title": "Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation",
+    "date": "2026-06-09",
+    "source": "arxiv"
+  },
+  {
+    "n": 24,
+    "id": "2610.12375",
+    "url": "https://arxiv.org/abs/2610.12375",
+    "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 25,
+    "id": "2605.23989",
+    "url": "https://arxiv.org/abs/2605.23989",
+    "title": "Towards trustworthy agentic AI: a comprehensive survey of safety, robustness, privacy, and system security",
+    "date": "2026-05-17",
+    "source": "arxiv"
+  }
+]

@@ -107,3 +107,49 @@ Kết quả nằm ở `reports/survey-about-world-model.md` cùng `.sources.json
 - Mỗi lần chạy tốn token LLM và thời gian sandbox. `tokens` trong `meta.json` chỉ đếm tin nhắn của lead, chưa gồm subagent, nên chi phí thật cao hơn. `open_sandbox()` luôn dừng và xóa sandbox khi kết thúc, kể cả khi lỗi. Đừng bỏ qua nó.
 - **Không đưa bí mật vào sandbox.** Sandbox không ngăn được prompt injection hay việc đẩy dữ liệu ra mạng; một trang web độc hại có thể khiến agent chạy lệnh bên trong sandbox. Vì vậy mọi công cụ gọi mạng và mọi khóa ở lại phía host.
 - Nội dung lấy từ web là **dữ liệu không đáng tin**: agent không được làm theo chỉ dẫn nằm trong đó.
+
+## 8. Bài làm này: chạy, kiểm thử, đọc kết quả
+
+Mã đã cài đặt: `check_citations.py`, `tools.py`, `agents.py`, `research.py`, và `merge_notes.py` (thêm mới, chạy trong sandbox). Các tệp `model.py`, `sandbox.py`, `finalize_citations.py`, `self_check.py` giữ nguyên.
+
+**Chạy một chủ đề** (sau khi làm theo mục 4):
+
+```bash
+source .venv/bin/activate
+python research.py "survey about world model"      # mã thoát 0 = có báo cáo hợp lệ; 1 = lần chạy hỏng, không ghi gì
+```
+
+**Biến môi trường tùy chọn** (xem `.env.example`), dành cho LLM miễn phí hay gateway hay lỗi:
+
+| Biến | Tác dụng |
+|---|---|
+| `LAB_FALLBACK_MODELS` | Danh sách model (cách nhau dấu phẩy, cùng endpoint với `LAB_MODEL`) để chuyển sang khi model hiện tại lỗi, chậm hoặc trả tin nhắn rỗng. |
+| `LAB_TIMEOUT` | Số giây chờ một câu trả lời trước khi bỏ và hỏi lại (mặc định 60). |
+| `LAB_MAX_RPS` | Giới hạn số lần gọi model mỗi giây, dùng chung cho lead và mọi subagent. |
+
+**Kiểm thử không tốn token** (cần `pip install pytest`):
+
+```bash
+python -m pytest -q          # with_retry, công cụ (HTTP giả), validator, gộp ghi chú, chuỗi model dự phòng, save_outputs
+python tools.py              # gọi thật cả 5 công cụ, không cần LLM
+python self_check.py         # kiểm tra 5 báo cáo, meta.json, trích dẫn, không lộ khóa trong git
+```
+
+**Đọc `reports/`.** Mỗi chủ đề có ba tệp cùng `<slug>` (xem `REPORT_TEMPLATE.md`):
+
+| Tệp | Nội dung |
+|---|---|
+| `<slug>.md` | Báo cáo: TL;DR, Background, các phần theo chủ đề, Trends and open problems, `## References` (một dòng cho mỗi nguồn). `[n]` trong thân trỏ tới dòng `[n]` ở References. |
+| `<slug>.sources.json` | Mảng `{n, id, url, title, date, source}`; `source` là công cụ đã trả nguồn (`arxiv`, `hf-daily`, `hf-search`, `web`). |
+| `<slug>.meta.json` | Bằng chứng chạy: model, thời gian, `subagent_calls`, `tool_calls`, `tokens` (chỉ của lead), `n_sources`, `source_families`. |
+
+Kiểm tra một báo cáo bằng tay: `python3 check_citations.py reports/<slug>.md reports/<slug>.sources.json` (phải in `OK`).
+
+**Thiết kế ngắn gọn.** Lead lập kế hoạch và giao 4-5 câu hỏi con cho `researcher` chạy song song (công cụ mạng chạy ở host, khóa không vào sandbox). Researcher ghi ghi chú; `merge_notes.py` gộp ghi chú thành `sources_all.json` **bằng mã** (không để LLM chép tay URL). Lead viết thân báo cáo vào `draft.md`, rồi dựng báo cáo cuối bằng `finalize_citations.py` và kiểm bằng `check_citations.py` (chạy trong sandbox). Lead giữ riêng danh sách nguồn đầy đủ và bản nháp vì finalizer xóa nguồn không được trích dẫn, nên mỗi lần chạy lại đều dựng từ hai tệp đó. `citation-checker` kiểm mẫu vài khẳng định.
+
+**Các lớp bảo vệ** (vì model yếu hoặc quá tải rất hay làm sai, và nguồn bịa làm báo cáo mất điểm):
+
+1. *Nguồn gốc.* Host ghi lại mọi thứ công cụ đã trả về. Researcher bị từ chối ghi một tệp ghi chú chứa `url:` chưa từng do công cụ nào trả về; sau khi chạy, `research.py` kiểm lại mọi URL trong `sources.json`. Nguồn bịa thì lần chạy bị hủy và không ghi gì.
+2. *Validator trên host.* Trước khi lưu, `research.py` chạy `check_citations` đầy đủ (trích dẫn, bố cục đúng mẫu, tối thiểu 3 họ nguồn, thân báo cáo tối thiểu 1000 từ, mọi nguồn có tiêu đề). Báo cáo hỏng không ghi đè báo cáo tốt.
+3. *Chịu lỗi LLM.* Lỗi 429/5xx/timeout được thử lại có backoff; model lỗi, chậm hoặc trả rỗng thì chuyển sang model kế tiếp trong `LAB_FALLBACK_MODELS`.
+4. *Giới hạn chi phí.* Lead và mọi subagent (kể cả `general-purpose` mặc định của `deepagents`) đều có giới hạn số lần gọi model/công cụ (`agents.py`).
